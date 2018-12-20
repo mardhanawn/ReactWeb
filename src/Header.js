@@ -10,7 +10,7 @@ class Header extends Component {
                         <ul>
                             <li><a href="#">HOME</a></li>
                             <li><a href="">PROFILE</a></li>
-                            <li><a href="#">ABOUT</a></li>
+                            <li><a class="about" href="/About">ABOUT</a></li>
                         </ul>
                     </nav>
                 </header>

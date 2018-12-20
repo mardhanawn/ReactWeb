@@ -4,9 +4,10 @@ import './Home.css';
 class Footer extends Component {
     render() {
         return (
-            <div>
+            <div className="Hom">
                 <footer className="Hom-footer">
-                    <div> Copyright Reserved 2018 </div>
+                    <div> Dumbways Magang &copy;2018 </div>
+                    <p></p>
                 </footer>
             </div>
         );
