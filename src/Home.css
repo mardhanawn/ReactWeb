@@ -20,7 +20,7 @@ nav ul li{
     float: left;
     display: block;
     font-size: 15px;
-    margin: -5px 30px 25px 15px;
+    margin: -10px 10px 25px 10px;
     align-self: center;
 }
 nav ul li a{
@@ -56,28 +56,32 @@ nav ul li a:hover{
   color: white;
 }
 
-.col{
-  text-align: center;
-  width: 90%;
-  position: relative;
-  min-height: 250px;
-  margin-top: 30px;
-  border-radius: 6px;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  box-shadow: 0 0 7px 0px rgba(136, 136, 136, 0.2);
+section#silabus{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color:  #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 136, 136, 0.2);
 }
 
-.silabus{
-  margin-left: 11%;
-  margin-right: 1%;
-  background-color: #fff;
-}
-
-.batch{
-  margin-left: 1%;
-  background-color: #fff;
-  margin-right: 11%;
+section#batch{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color:  #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 136, 136, 0.2);
 }
 
 .Hom-profile{
@@ -212,56 +216,40 @@ section#box-profile{
     color: #55a8fd;
     border: 1px solid #55a8fd;
 }
-section#input-form{
-    position: relative;
-    max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 60px;
-    border-radius: 6px;
-    background-color: #fff;
-    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
-    padding: 30px;
+
+.editor{
+  margin:  20px 50px 30px 50px;
 }
-#input-form .form{
-    width: 100%;
-    display: grid;
-    margin-top: 15px;
-    margin-bottom: 15px;
+
+.txt{
+    width: 1200px;
 }
-label{
-    font-family: 'Helvetica', sans-serif;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
+
+.code {
+  margin-left: 1050px;
 }
-input{
-    font-family: 'Helvetica', sans-serif;
-    padding: 10px 20px 10px 20px;
-    outline: none;
-    border-radius: 3px;
-    border: 1px solid #8888;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 16px;
+
+.compiler{
+  width: 1000;
+  height: 1000
 }
-.form{
-    display: block;
-    width: 100%;
-    margin-bottom: 4px;
-    height: 36px;
-}
-.form{
-    font-weight: 600;
-    width: 150px;
-    color: #333;
-}
-.bg-blue{
-    background-color: #55a8fd;
-    color: #fff;
-    box-shadow:  0 0 7px 0 px #55a8fd;
-    border: 1px solid #55a8fd;
-}
+
 .about{
-    
+    height: 50px;
+    text-align: center;
 }
+
+.p-about{
+    position: relative;
+    display: inline-block;
+    float: left;
+    align-self: center;
+    justify-content: center;
+    top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    border-right: 1px solid #efefef;
+}
+
+

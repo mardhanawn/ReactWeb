@@ -1,48 +1,45 @@
 import React, { Component } from 'react';
 import './Home.css';
-import Header from './Header.js';
-import Footer from './Footer.js';
-import { Button } from 'reactstrap';
+import {withRouter,Link} from 'react-router-dom';
 
 class Profile extends Component {
     render() {
         return (
-            <section id="input-form">
-            <form className="form">
-            <h1>Profil Page</h1>
-            <div class="form">
-                <label>Email<input type="email" name="Email" />
-                </label>
-            </div>
-            <div class="form">
-                <label>Asal Sekolah<input type="text" name="Asal" />
-                </label>
-            </div>
-            <div class="form">
-                <label>Kelas<input type="text" name="Kelas" />
-                </label>
-            </div>
-            <div class="form">
-                <label>Tahun Angkatan<input type="number" name="Tahun" />
-                </label>
-            </div>
-            <div class="form">
-                <label>Jenis Kelamin<input type="text" name="Jenis" />
-                </label>
-            </div>
-            <div class="form">
-                <label>Kota<input type="text" name="Kota" />
-                </label>
-            </div>
-            <div class="form">
-                <label>Hobi<input type="text" name="Hobi" />
-                </label>
-            </div>
-            <div class="form">
-                <input type="submit" name="submit" value="Submit" class="bg-blue"/>
-            </div>
-            </form>
-            </section>
+            <div className="about">
+            <h3>Profile Page</h3>
+        <div class="btn-group">
+        </div>
+            <div className="profile">
+                <div className="profile-data">
+                    <p className="profile-field">Name</p>
+                    <p className="profile-text-gray">Agfid Danu Prasetyo</p>
+                </div>
+                <div className="profile-data">
+                    <p className="profile-field">Divisi</p>
+                    <p className="profile-text-gray">Android Dev</p>
+                </div>
+                <div className="profile-data">
+                    <p className="profile-field">Availability</p>
+                    <p className="profile-text-gray">Full Time</p>
+                </div>
+                <div className="profile-data">
+                    <p className="profile-field">Age</p>
+                    <p className="profile-text-gray">16</p>
+                </div>
+                <div className="profile-data">
+                    <p className="profile-field">Location</p>
+                    <p className="profile-text-gray">Purwokerto, Indonesia</p>
+                </div>
+                <div className="profile-data">
+                    <p className="profile-field">Years Exprience</p>
+                    <p className="profile-text-gray">1</p>
+                </div>
+                <div className="profile-data">
+                    <p className="profile-field">Email</p>
+                    <p className="profile-text-gray">agfid11@gmai l.com</p>
+                </div>
+          </div> 
+          </div>
         );
     }
 }

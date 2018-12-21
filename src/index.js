@@ -4,21 +4,27 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Home from './Home';
-import Profile from './Profile.js';
-import About from './About.js';
+//import Batch from './ListBatch.js';
 import * as serviceWorker from './serviceWorker';
-import{
-    BrowserRouter as Router,
-    Route,
+import Reg from './Registrasi';
+import Hack from './Hackerrank';
+import Menu from './Menu';
+import About from './About';
+import Profile from './Profile';
+import {
+	BrowserRouter as Router,
+	Route,
 } from 'react-router-dom';
 ReactDOM.render(
-
-    <Router>
+    
+	<Router>
         <div>
-            <Route exact path="/" component ={Home} />
-
-            <Route path="/Profile" component={Profile} />
+            <Route exact path="/" component={Menu} />
+            <Route path="/Dashboard" component={Home}/>
+            <Route path="/Reg" component={Reg} />
+            <Route path="/Hack" component={Hack} />
             <Route path="/About" component={About} />
+            <Route path="/Profile" component={Profile} />
         </div>
     </Router>
     , document.getElementById('root'));

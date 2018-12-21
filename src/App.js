@@ -17,18 +17,9 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React Web 
+            Learn React
           </a>
-
-          <h1> Header </h1>
         </header>
-        <body className="App-body">
-          <div> React Web Prakerin </div>
-        </body>
-        <footer className="App-footer">
-          <div> Footer </div>
-          <div> Copyright Reserved 2018 </div>
-        </footer>
       </div>
     );
   }
