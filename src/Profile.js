@@ -7,9 +7,9 @@ class Profile extends Component {
         return (
             <div className="about">
             <h3>Profile Page</h3>
-        <div class="btn-group">
+        <div class="profile1">
         </div>
-            <div className="profile">
+            <div className="profile-body">
                 <div className="profile-data">
                     <p className="profile-field">Name</p>
                     <p className="profile-text-gray">Agfid Danu Prasetyo</p>
